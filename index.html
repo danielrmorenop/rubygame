@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- comments here -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/styles.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+         <div class="card">
+             <div class="card-body">
+                <h1 class="text-center">Ratchet and Clank Card Off!</h1>
+                <div class="row text-center">
+                    <div class="col-md-6">
+                        <div class="number">
+                            <p>Each card has a different value. Click each card to reach the goal!  <span></span></p> 
+                            <p class="font-weight-bold">Your Goal:  <span class="random-number"></span></p>   
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="score">
+                           <p class="font-weight-bold">Wins: <span class="win font-weight-bold" >0</span></p> 
+                           <p class="font-weight-bold">Losses: <span class="lose font-weight-bold">0</span></p> 
+                        </div>
+                    </div>
+                </div>
+                <div class="cardmargin">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="box-character vader text-center" style = "cursor:pointer"><h4>Ratchet</h4><img src="assets\images\ratchet.png" alt="vader"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box-character kylo text-center" style = "cursor:pointer"><h4>Clank</h4><img src="assets\images\clank.png" alt="kylo"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box-character luke text-center" style = "cursor:pointer"><h4>Dr. Nefarious</h4><img src="assets\images\drnefarious.jpg" alt="luke"></div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="box-character chewbacca text-center" style = "cursor:pointer"><h4>Cptn. Qwark</h4><img src="assets\images\qwark.png" alt="chewwie"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="result text-center font-weight-bold">
+                    <p>Your total score is : <span class="total">0</span></p>
+                </div>
+             </div>
+         </div>
+    </div>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
